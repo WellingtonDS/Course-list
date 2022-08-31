@@ -14,6 +14,22 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
+## Version
+
+laravel version 5.3
+php version 7.4
+
+## Database
+MySql / SQLite
+ide:Workbanch / dbheaver
+
+## to run the framework
+
+php artisan serve
+
+## to add data to the database through tinker
+
+php artisan tinker
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).

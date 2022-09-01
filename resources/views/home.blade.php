@@ -9,8 +9,8 @@
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{asset($curso->imagem)}}">
-                        <span class="card-title">Card Title</span>
+                        <img style="height: 150px;" src="{{asset($curso->imagem)}}">
+                        <span class="card-title">{{$curso->titulo}}</span>
                     </div>
                     <div class="card-content">
                         <h5>{{$curso->titulo}}</h5>
@@ -23,7 +23,9 @@
             </div>
             @endforeach
         </div>
-        
+        <div class="row center">
+            {{$cursos->links()}}
+        </div>
     </div>
     
 
